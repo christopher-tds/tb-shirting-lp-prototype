@@ -40,3 +40,7 @@ Belizio and Poynter are licensed and kept out of the repo (`public/fonts/` is gi
 - **Products:** real names, colors, prices and photos for the 16 shirts in `src/data/products.json`, hand-copied from thetiebar.com search on 2026-11-08 (the public feed 404s on Hydrogen). It's a snapshot: refresh prices and stock before a review. Cards link to the live product pages and use each shirt's folded flat lay.
 - **Fit images:** Standard and Trim use the same photo, as in the Figma file.
 - **Alt text:** drafted from the photos; confirm before handoff.
+
+## Hosting
+
+Live at https://christopher-tds.github.io/tb-shirting-lp-prototype/ (`?v=v4`, `?v=v5`, plus `links.html` and `motion.html`). Pushing to `main` runs `.github/workflows/pages.yml`, which builds with Vite and deploys `dist/`. The brand fonts in `public/fonts/` are gitignored, so the hosted site falls back to the Google fonts. Pages caches for about 10 minutes; check a new publish with a cache-busting query.
