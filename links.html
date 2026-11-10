@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Text link options</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500&family=Roboto+Slab:wght@500&display=swap" />
+<style>
+  /* Review page (not part of the design): text-link options for the shirting LP.
+     Each option shows rest, hover (forced) and a live sample you can hover. Production values from
+     tb-shopify-hydrogen app/styles/styles.css (origin/master, 2026-11-06). */
+  @font-face { font-family: "TB Belizio"; src: url("fonts/Belizio-Medium.woff2") format("woff2"); font-weight: 500; }
+  @font-face { font-family: "TB Poynter Condensed"; src: url("fonts/PoynterGothicTextBoldCondensed.woff2") format("woff2"); font-weight: 700; }
+  :root {
+    --brand-ink: #1e1e1e; --gray-80: #3c3d3f; --gray-70: #5f6062; --gray-30: #dddddd; --gray-20: #f5f5f7; --white: #fff;
+    --leaf: #3f5b19; --leaf-dark: #2b371a; --asphalt-light: #b3bcbf; --brass: #f0b03e;
+    --font: "Libre Franklin", Roboto, Arial, sans-serif;
+    --font-serif: "TB Belizio", "Roboto Slab", Georgia, serif;
+    --font-cond: "TB Poynter Condensed", "Roboto Condensed", "Arial Narrow", sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--white); color: var(--brand-ink); font-family: var(--font); font-size: 16px; line-height: 24px; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 48px 16px 96px; }
+  h1 { margin: 0; font-family: var(--font-serif); font-weight: 500; font-size: 32px; line-height: 40px; }
+  .lede { margin: 8px 0 40px; color: var(--gray-70); max-width: 720px; }
+  .option { display: grid; gap: 16px; padding: 32px 0; border-top: 1px solid var(--gray-30); }
+  .option__head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; }
+  .option__name { margin: 0; font-size: 20px; line-height: 28px; font-weight: 500; }
+  .tag { font-size: 12px; line-height: 16px; padding: 4px 8px; border-radius: 4px; background: var(--gray-20); color: var(--gray-80); }
+  .tag--ok { background: #e6ecdc; color: var(--leaf-dark); }
+  .tag--warn { background: #fbecd0; color: #5c3f0b; }
+  .option__spec { margin: 0; font-size: 14px; line-height: 20px; color: var(--gray-70); max-width: 760px; }
+  .cells { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .cell { display: grid; gap: 12px; align-content: start; padding: 24px; border-radius: 8px; background: var(--gray-20); }
+  .cell--dark { background: var(--leaf-dark); color: var(--white); }
+  .cell__label { font-size: 12px; line-height: 16px; color: var(--gray-70); }
+  .cell--dark .cell__label { color: #c9d1bd; }
+  .cell__headline { margin: 0; font-family: var(--font-serif); font-weight: 500; font-size: 24px; line-height: 32px; }
+  .cell__body { margin: 0; font-size: 14px; line-height: 20px; }
+  .cell > a { justify-self: start; } /* links hug their text instead of stretching across the card */
+
+  /* ---- Current: 14/20 Medium, underline auto (~1px), 3px offset, no hover ---- */
+  .l-current { display: inline-flex; align-items: center; min-height: 24px; color: inherit; font-size: 14px; line-height: 20px; font-weight: 500; text-decoration: underline; text-underline-offset: 3px; }
+
+  /* ---- Option 1a: current + production `link` hover (text and underline turn leaf) ---- */
+  .l-1a { display: inline-flex; align-items: center; min-height: 24px; color: inherit; font-size: 14px; line-height: 20px; font-weight: 500; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; transition: color 150ms ease, text-decoration-color 150ms ease; }
+  .l-1a:hover, .l-1a.is-hover { color: var(--leaf); }
+  .cell--dark .l-1a:hover, .cell--dark .l-1a.is-hover { color: var(--brass); }
+
+  /* ---- Option 1b: 1px at rest, 2px + leaf on hover (borrows tertiary's 2px bar) ---- */
+  .l-1b { display: inline-flex; align-items: center; min-height: 24px; color: inherit; font-size: 14px; line-height: 20px; font-weight: 500; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; transition: color 150ms ease, text-decoration-thickness 150ms ease; }
+  .l-1b:hover, .l-1b.is-hover { color: var(--leaf); text-decoration-thickness: 2px; }
+  .cell--dark .l-1b:hover, .cell--dark .l-1b.is-hover { color: var(--brass); }
+
+  /* ---- Option 2: production btn--tertiary (+ -inverse on dark), as is ---- */
+  .l-2 { position: relative; display: inline-block; padding: 12px 0; color: var(--leaf-dark); font-family: var(--font-cond); font-weight: 700; font-size: 20px; line-height: 20px; letter-spacing: 0.36px; text-transform: uppercase; text-decoration: none; }
+  .l-2::after { content: ""; position: absolute; left: 0; bottom: 0; width: 100%; height: 2px; }
+  .l-2:hover, .l-2.is-hover { color: var(--leaf); }
+  .l-2:hover::after, .l-2.is-hover::after { background: var(--leaf); }
+  .cell--dark .l-2 { color: var(--white); }
+  .cell--dark .l-2:hover, .cell--dark .l-2.is-hover { color: var(--brass); }
+  .cell--dark .l-2:hover::after, .cell--dark .l-2.is-hover::after { background: var(--brass); }
+
+  /* ---- Option 3: tertiary in sentence case, bar shown at rest (governance-safe hybrid) ---- */
+  .l-3 { position: relative; display: inline-block; padding: 4px 0 6px; color: var(--leaf-dark); font-family: var(--font-cond); font-weight: 700; font-size: 20px; line-height: 20px; text-decoration: none; }
+  .l-3::after { content: ""; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background: currentColor; transition: height 150ms ease; }
+  .l-3:hover, .l-3.is-hover { color: var(--leaf); }
+  .l-3:hover::after, .l-3.is-hover::after { height: 2px; }
+  .cell--dark .l-3 { color: var(--white); }
+  .cell--dark .l-3:hover, .cell--dark .l-3.is-hover { color: var(--brass); }
+
+  /* ---- Reference: production btn--secondary ---- */
+  .b-2nd { display: inline-block; justify-self: start; padding: 12px 20px; border-radius: 4px; background: var(--white); color: var(--leaf-dark); outline: 2px solid var(--asphalt-light); outline-offset: -2px; font-family: var(--font-cond); font-weight: 700; font-size: 16px; line-height: 16px; letter-spacing: 0.36px; text-transform: uppercase; text-decoration: none; transition: background 150ms ease, color 150ms ease; }
+  .b-2nd:hover, .b-2nd.is-hover { background: var(--leaf-dark); color: var(--white); outline-color: var(--leaf-dark); }
+
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Text link options</h1>
+  <p class="lede">For the shirting landing page's text links ("Shop Pinpoint Solid", "Shop all shirts"). Each row shows the link at rest, forced into its hover state, and on the dark leaf band. The right-hand samples are live, so you can hover them.</p>
+
+  <section class="option" id="o-current"></section>
+  <section class="option" id="o-1a"></section>
+  <section class="option" id="o-1b"></section>
+  <section class="option" id="o-2"></section>
+  <section class="option" id="o-3"></section>
+  <section class="option" id="o-ref"></section>
+</div>
+
+<script>
+  // Builds each option row from one spec so the samples stay identical apart from the link class.
+  const OPTIONS = [
+    { id: "o-current", cls: "l-current", name: "Current", tags: [["ok", "Within governance"]],
+      spec: "14/20 Libre Franklin Medium, underline 3px below the text at the font's default thickness (about 1px). No hover state.", label: "Shop Pinpoint Solid" },
+    { id: "o-1a", cls: "l-1a", name: "Option 1a: current + production hover", tags: [["ok", "Within governance"]],
+      spec: "Same link with 1px set explicitly and the gap opened to 4px. On hover, text and underline turn leaf, as production's link style does (brass on dark backgrounds). 150ms color fade.", label: "Shop Pinpoint Solid" },
+    { id: "o-1b", cls: "l-1b", name: "Option 1b: hover thickens to 2px", tags: [["ok", "Within governance"]],
+      spec: "Like 1a, but the underline also thickens from 1px to 2px on hover, borrowing the weight of production's tertiary bar.", label: "Shop Pinpoint Solid" },
+    { id: "o-2", cls: "l-2", name: "Option 2: production tertiary, as is", tags: [["warn", "Breaks C2 all caps"], ["warn", "Breaks C6: no underline at rest"]],
+      spec: "btn--tertiary: Poynter Condensed Bold 20/20, uppercase, 0.36px tracking, 12px padding (44px tall). No underline at rest; a 2px leaf bar and leaf text on hover.", label: "Shop Pinpoint Solid" },
+    { id: "o-3", cls: "l-3", name: "Option 3: tertiary in sentence case, underlined at rest", tags: [["ok", "Within governance"], ["", "New style"]],
+      spec: "Production's tertiary type in sentence case, with a 1px bar 6px below the text at rest that thickens to 2px and turns leaf on hover. Closer to the live site's look while keeping the underline.", label: "Shop Pinpoint Solid" },
+    { id: "o-ref", cls: "b-2nd", name: "Reference: production secondary button", tags: [["warn", "C6: buttons only for add to cart and form submits"], ["warn", "Breaks C2 all caps"]],
+      spec: "btn--secondary btn--small: white with a 2px asphalt-light inset outline, leaf-dark text; fills leaf-dark on hover. Shown for comparison, not proposed.", label: "Shop now", noDark: true },
+  ];
+  const cell = (o, mode) => {
+    const dark = mode === "dark";
+    const forced = mode === "hover" ? " is-hover" : "";
+    const label = { rest: "At rest", hover: "Hover (forced)", dark: "On leaf-dark, hover me" }[mode];
+    return `<div class="cell${dark ? " cell--dark" : ""}">
+      <span class="cell__label">${label}</span>
+      <h2 class="cell__headline">Monday through Friday, handled.</h2>
+      <p class="cell__body">A smooth pinpoint weave with a semi-spread collar.</p>
+      <a href="#" class="${o.cls}${forced}" onclick="return false">${o.label}</a>
+    </div>`;
+  };
+  for (const o of OPTIONS) {
+    const tags = o.tags.map(([k, t]) => `<span class="tag${k ? " tag--" + k : ""}">${t}</span>`).join("");
+    const modes = o.noDark ? ["rest", "hover"] : ["rest", "hover", "dark"];
+    document.getElementById(o.id).innerHTML =
+      `<div class="option__head"><h2 class="option__name">${o.name}</h2>${tags}</div>
+       <p class="option__spec">${o.spec}</p>
+       <div class="cells">${modes.map((m) => cell(o, m)).join("")}</div>`;
+  }
+</script>
+</body>
+</html>

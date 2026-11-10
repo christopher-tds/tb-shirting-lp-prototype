@@ -1,0 +1,228 @@
+{
+ "source": "thetiebar.com search results, captured 2026-11-08 (hand-built snapshot; prices and stock go stale); images are each product's folded flat lay; lifestyle is the first on-model image in each product's live gallery (2026-11-09), or, where the gallery has none, a close-up or detail shot",
+ "families": {
+  "PS": {
+   "name": "Pinpoint Solid",
+   "products": [
+    {
+     "id": "shr-2955-0003",
+     "title": "Pinpoint Solid - Point Collar White Non-Iron Dress Shirt",
+     "name": "Point Collar Non-Iron Dress Shirt",
+     "color": "White",
+     "price": "$68",
+     "compareAt": null,
+     "state": null,
+     "image": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q424_shr-2955-0003_main_958f2a82-ea5d-43b0-be37-0e9e3fcf8922.jpg?v=1778174899&width=600",
+     "alt": "Pinpoint Solid point collar non-iron dress shirt in white",
+     "url": "https://www.thetiebar.com/product/shr-2955-0003",
+     "lifestyle": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q424_shr-2955-0003_2.jpg?v=1765386071&width=600"
+    },
+    {
+     "id": "shr-2952-0003",
+     "title": "Pinpoint Solid - Semi Spread Collar White Non-Iron Dress Shirt",
+     "name": "Semi Spread Collar Non-Iron Dress Shirt",
+     "color": "White",
+     "price": "$68",
+     "compareAt": null,
+     "state": null,
+     "image": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_shr-2952-0003_3.jpg?v=1790879146&width=600",
+     "alt": "Pinpoint Solid semi spread collar non-iron dress shirt in white",
+     "url": "https://www.thetiebar.com/product/shr-2952-0003",
+     "lifestyle": "https://cdn.shopify.com/s/files/1/0505/7019/9217/products/PDP_shr-2952-0003_main.jpg?v=1790879127&width=600"
+    },
+    {
+     "id": "shr-6013-0003",
+     "title": "Pinpoint Solid - Long Point Collar White Non-Iron Dress Shirt",
+     "name": "Long Point Collar Non-Iron Dress Shirt",
+     "color": "White",
+     "price": "$68",
+     "compareAt": null,
+     "state": null,
+     "image": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q325_shr-6013-0003_3.jpg?v=1790880419&width=600",
+     "alt": "Pinpoint Solid long point collar non-iron dress shirt in white",
+     "url": "https://www.thetiebar.com/product/shr-6013-0003",
+     "lifestyle": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q325_shr-6013-0003_6.jpg?v=1793133384&width=600"
+    },
+    {
+     "id": "shr-6013-0201",
+     "title": "Pinpoint Solid - Long Point Collar Light Blue Non-Iron Dress Shirt",
+     "name": "Long Point Collar Non-Iron Dress Shirt",
+     "color": "Light Blue",
+     "price": "$68",
+     "compareAt": null,
+     "state": null,
+     "image": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q226_shr-6013-0201_main.jpg?v=1781638430&width=600",
+     "alt": "Pinpoint Solid long point collar non-iron dress shirt in light blue",
+     "url": "https://www.thetiebar.com/product/shr-6013-0201",
+     "lifestyle": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q226_shr-6013-0201_5.jpg?v=1793133244&width=600"
+    },
+    {
+     "id": "shr-2954-0003",
+     "title": "Pinpoint Solid - Point Collar French Cuff White Non-Iron Dress Shirt",
+     "name": "Point Collar French Cuff Non-Iron Dress Shirt",
+     "color": "White",
+     "price": "$68",
+     "compareAt": null,
+     "state": null,
+     "image": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q125_shr-2954-0003_main_a1c30edc-a9ce-4731-a9b9-3f5eaf22e847.jpg?v=1778174760&width=600",
+     "alt": "Pinpoint Solid point collar french cuff non-iron dress shirt in white",
+     "url": "https://www.thetiebar.com/product/shr-2954-0003",
+     "lifestyle": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_shr-2954-0003_1.jpg?v=1739229931&width=600"
+    },
+    {
+     "id": "shr-2952-0201",
+     "title": "Pinpoint Solid - Semi Spread Collar Light Blue Non-Iron Dress Shirt",
+     "name": "Semi Spread Collar Non-Iron Dress Shirt",
+     "color": "Light Blue",
+     "price": "$68",
+     "compareAt": null,
+     "state": null,
+     "image": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q424_shr-2952-0201_main.jpg?v=1732316500&width=600",
+     "alt": "Pinpoint Solid semi spread collar non-iron dress shirt in light blue",
+     "url": "https://www.thetiebar.com/product/shr-2952-0201",
+     "lifestyle": "https://cdn.shopify.com/s/files/1/0505/7019/9217/products/shr-2952-0201_4.jpg?v=1680794049&width=600"
+    },
+    {
+     "id": "shr-2955-0201",
+     "title": "Pinpoint Solid - Point Collar Light Blue Non-Iron Dress Shirt",
+     "name": "Point Collar Non-Iron Dress Shirt",
+     "color": "Light Blue",
+     "price": "$68",
+     "compareAt": null,
+     "state": null,
+     "image": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q424_shr-2955-0201_main_6d.jpg?v=1776963756&width=600",
+     "alt": "Pinpoint Solid point collar non-iron dress shirt in light blue",
+     "url": "https://www.thetiebar.com/product/shr-2955-0201",
+     "lifestyle": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q424_shr-2955-0201_2.jpg?v=1732316576&width=600"
+    },
+    {
+     "id": "shr-6058-0003",
+     "title": "Pinpoint Solid - Traditional Button Down Collar White Non-Iron Dress Shirt",
+     "name": "Traditional Button Down Collar Non-Iron Dress Shirt",
+     "color": "White",
+     "price": "$68",
+     "compareAt": null,
+     "state": null,
+     "image": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q424_shr-6058-0003_3_3.jpg?v=1790881325&width=600",
+     "alt": "Pinpoint Solid traditional button down collar non-iron dress shirt in white",
+     "url": "https://www.thetiebar.com/product/shr-6058-0003",
+     "lifestyle": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q424_shr-6058-0003_01.jpg?v=1793133738&width=600"
+    },
+    {
+     "id": "shr-2953-0003",
+     "title": "Pinpoint Solid - Button-Down Collar White Non-Iron Dress Shirt",
+     "name": "Button-Down Collar Non-Iron Dress Shirt",
+     "color": "White",
+     "price": "$68",
+     "compareAt": null,
+     "state": null,
+     "image": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q424_shr-2953-0003_main_a57f0842-f6ed-44ae-9799-2a6295da028f.jpg?v=1778174851&width=600",
+     "alt": "Pinpoint Solid button-down collar non-iron dress shirt in white",
+     "url": "https://www.thetiebar.com/product/shr-2953-0003",
+     "lifestyle": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q424_shr-2953-0003_4.jpg?v=1743784570&width=600"
+    }
+   ]
+  },
+  "HT": {
+   "name": "Herringbone Tuxedo",
+   "products": [
+    {
+     "id": "shr-1935-0003",
+     "title": "Herringbone Tuxedo - Point Collar White Non-Iron Dress Shirt",
+     "name": "Point Collar Non-Iron Dress Shirt",
+     "color": "White",
+     "price": "$68",
+     "compareAt": null,
+     "state": null,
+     "image": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_shr-1935-0003_main.jpg?v=1778174982&width=600",
+     "alt": "Herringbone Tuxedo point collar non-iron dress shirt in white",
+     "url": "https://www.thetiebar.com/product/shr-1935-0003",
+     "lifestyle": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/shr-1935-0003_3.jpg?v=1691416195&width=600"
+    },
+    {
+     "id": "shr-5534-0003",
+     "title": "Herringbone Tuxedo - Point Collar White Pique Bib Dress Shirt",
+     "name": "Point Collar Pique Bib Dress Shirt",
+     "color": "White",
+     "price": "$68",
+     "compareAt": null,
+     "state": null,
+     "image": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q124_shr-5534-0003_3_3.jpg?v=1790885559&width=600",
+     "alt": "Herringbone Tuxedo point collar pique bib dress shirt in white",
+     "url": "https://www.thetiebar.com/product/shr-5534-0003",
+     "lifestyle": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q124_shr-5534-0003_main_1.jpg?v=1790885529&width=600"
+    },
+    {
+     "id": "shr-5533-0003",
+     "title": "Herringbone Tuxedo - Point Collar White Pleated Bib Dress Shirt",
+     "name": "Point Collar Pleated Bib Dress Shirt",
+     "color": "White",
+     "price": "$68",
+     "compareAt": null,
+     "state": null,
+     "image": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q124_shr-5533-0003_3.jpg?v=1790885123&width=600",
+     "alt": "Herringbone Tuxedo point collar pleated bib dress shirt in white",
+     "url": "https://www.thetiebar.com/product/shr-5533-0003",
+     "lifestyle": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_Q124_shr-5533-0003_main_0912de2c-8f54-4749-bafa-1a8028521ab0.jpg?v=1790885107&width=600"
+    }
+   ]
+  },
+  "TS": {
+   "name": "Textured Solid",
+   "products": [
+    {
+     "id": "shr-3972-0003",
+     "title": "Textured Solid - Semi Spread Collar White Non-Iron Dress Shirt",
+     "name": "Semi Spread Collar Non-Iron Dress Shirt",
+     "color": "White",
+     "price": "$68",
+     "compareAt": null,
+     "state": null,
+     "image": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/PDP_shr-3972-0003_main.jpg?v=1778175109&width=600",
+     "alt": "Textured Solid semi spread collar non-iron dress shirt in white",
+     "url": "https://www.thetiebar.com/product/shr-3972-0003",
+     "lifestyle": "https://cdn.shopify.com/s/files/1/0505/7019/9217/products/shr-3972-0003_4.jpg?v=1718894397&width=600"
+    },
+    {
+     "id": "shr-3972-0201",
+     "title": "Textured Solid - Semi Spread Collar Light Blue Non-Iron Dress Shirt",
+     "name": "Semi Spread Collar Non-Iron Dress Shirt",
+     "color": "Light Blue",
+     "price": "$68",
+     "compareAt": null,
+     "state": null,
+     "image": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/shr-3972-0201_3.jpg?v=1790881049&width=600",
+     "alt": "Textured Solid semi spread collar non-iron dress shirt in light blue",
+     "url": "https://www.thetiebar.com/product/shr-3972-0201",
+     "lifestyle": "https://cdn.shopify.com/s/files/1/0505/7019/9217/products/shr-3972-0201_main.jpg?v=1790880986&width=600"
+    },
+    {
+     "id": "shr-3972-0197",
+     "title": "Textured Solid - Semi Spread Collar Lavender Non-Iron Dress Shirt",
+     "name": "Semi Spread Collar Non-Iron Dress Shirt",
+     "color": "Lavender",
+     "price": "$68",
+     "compareAt": null,
+     "state": null,
+     "image": "https://cdn.shopify.com/s/files/1/0505/7019/9217/products/shr-3972-0197_2.jpg?v=1790886218&width=600",
+     "alt": "Textured Solid semi spread collar non-iron dress shirt in lavender",
+     "url": "https://www.thetiebar.com/product/shr-3972-0197",
+     "lifestyle": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/shr-3972-0197_01.jpg?v=1793133672&width=600"
+    },
+    {
+     "id": "shr-3972-0212",
+     "title": "Textured Solid - Semi Spread Collar Light Pink Non-Iron Dress Shirt",
+     "name": "Semi Spread Collar Non-Iron Dress Shirt",
+     "color": "Light Pink",
+     "price": "$45.50",
+     "compareAt": "$65",
+     "state": "sale",
+     "image": "https://cdn.shopify.com/s/files/1/0505/7019/9217/files/SHR-3972-0212_3.jpg?v=1790880594&width=600",
+     "alt": "Textured Solid semi spread collar non-iron dress shirt in light pink",
+     "url": "https://www.thetiebar.com/product/shr-3972-0212",
+     "lifestyle": "https://cdn.shopify.com/s/files/1/0505/7019/9217/products/SHR-3972-0212_main.jpg?v=1790880577&width=600"
+    }
+   ]
+  }
+ }
+}
